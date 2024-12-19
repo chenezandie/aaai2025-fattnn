@@ -690,9 +690,3 @@ for seed in range(1,21):
 average_mse = sum(mse_values) / len(mse_values)
 
 print(f"Average Test MSE over runs: {average_mse}")
-
-rmse = []
-for i in mse_values:
-    a = np.sqrt(i)
-    rmse.append(a)
-sum(rmse)/20  

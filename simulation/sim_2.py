@@ -656,11 +656,4 @@ average_mse = sum(mse_values) / len(mse_values)
 average_rpe = sum(rpe_values) / len(rpe_values)
 
 print(f"Average Test MSE over runs: {average_mse}")
-rmse = []
-for i in mse_values:
-    a = np.sqrt(i)
-    rmse.append(a)
-sum(rmse)/20
-ao = sum(rmse)/20
-print(ao)
 
